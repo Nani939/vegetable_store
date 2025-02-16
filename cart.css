@@ -1,0 +1,102 @@
+/* General Page Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Cart Container */
+h2 {
+    text-align: center;
+    color: #333;
+    margin-top: 20px;
+}
+
+.cart-container {
+    width: 80%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #ff5733;
+    color: white;
+}
+
+/* Image Styling */
+table img {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+}
+
+/* Remove Button */
+.remove-btn {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+}
+
+/* Buy Button */
+.buy-btn {
+    display: block;
+    width: 100%;
+    max-width: 250px;
+    margin: 20px auto;
+    padding: 12px;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.buy-btn:hover {
+    background-color: darkgreen;
+}
+
+/* Checkbox Styling */
+input[type="checkbox"] {
+    transform: scale(1.5);
+    cursor: pointer;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .cart-container {
+        width: 95%;
+    }
+
+    table th, table td {
+        padding: 10px;
+        font-size: 14px;
+    }
+}

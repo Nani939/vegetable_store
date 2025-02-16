@@ -1,0 +1,113 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f6f6;
+    color: #333;
+    text-align: center;
+
+}
+
+/* Menu Toggle */
+.menu-toggle, .close-menu {
+    display: block;
+    cursor: pointer;
+    padding: 10px;
+    font-size: 24px;
+    background: none;
+    border: none;
+    text-align: right;
+}
+
+/* Responsive Navigation */
+@media only screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+    }
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://img.money.com/2019/12/eat-fruits-vegetables-get-paid-998408416.jpg?quality=85') 
+                no-repeat center center / cover;
+    padding: 50px 20px;
+    color: white;
+}
+
+.hero h2 {
+    text-align: center;
+    color: #333;
+}
+
+.hero p {
+    font-size: 1.2rem;
+}
+
+/* Button Styles */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 15px;
+    background-color: #ff6600;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #e65c00;
+}
+
+/* Products Section */
+.products {
+    padding: 40px 20px;
+}
+
+.products h2 {
+    margin-bottom: 20px;
+}
+
+.product-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.product {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 250px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom-in Effect on Hover */
+.product:hover {
+    transform: scale(1.1);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Zoom-in Effect for Images */
+.product img:hover {
+    transform: scale(1.1);
+}
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+}
